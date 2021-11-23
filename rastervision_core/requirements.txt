@@ -3,11 +3,12 @@ numpy<1.22
 shapely==1.6.*
 pillow==8.3.*
 pyproj==2.6.*
-rasterio==1.0.7
+rasterio>=1.0.7
 imageio==2.3.*
 pystac==1.0.*
-mask-to-polygons==0.0.2
+mask-to-polygons==git+https://github.com/jonathanpascoe/mask-to-polygons.git#spatialscale-main
 scikit-learn==0.24.*
 scipy>=0.19.1
 joblib>=0.11
 threadpoolctl>=2.0.0
+opencv-python>=4.5.
